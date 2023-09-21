@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+
+   
+}
+
+#outer1 {
+    width: 1358px;
+    height: 643px;
+    border: 4px solid black;
+    display: flex;
+    justify-content: center;
+    background-image: url('12.jpg.jpg'); /* Background image for outer1 */
+    background-size: cover;
+    background-position: center;
+}
+#main1{
+    width: 550px;
+    height: 400px;
+   
+    margin: auto;
+    display: flex;
+    text-align: center;
+    
+}
+
+#textwork{
+display: flex;
+flex-direction: column;
+width: 300px;
+height: 296px;
+
+margin: auto;
+justify-content: center;
+}
+.username{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size:x-large;
+    color: rgb(7, 7, 7);
+
+}
+.password{
+    margin-top: 2px;
+    text-align: center;
+    font-size: x-large;
+}
+#fields{
+width: 300px;
+height: 296px;
+
+margin: auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+#in1{
+display: flex;
+width: 250px;
+margin-left: 20px;
+margin-top: 120px;
+
+}
+#in2{
+width: 250px;
+margin-left: 20px;
+margin-top: 20px;
+margin-bottom: -5px;
+
+}
+button{
+    cursor: pointer;
+       width: 80px;
+       margin-top: 25px;  
+       margin: auto;
+       background-color: black;
+       color: white;
+}
+#textwork:hover{
+    background-color: rgba(95, 61, 61, 0.137);
+    background-position: center;
+    
+    
+}
+#fields:hover{
+    background-color: rgba(163, 165, 162, 0.486);
+    color: rgb(255, 245, 245);
+    
+}
+
